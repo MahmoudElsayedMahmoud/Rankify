@@ -38,9 +38,9 @@ class HydeRetreiver:
     Example:
         ```python
         from rankify.dataset.dataset import Document, Question
-        from rankify.retrievers.hyde_retriever import HydeRetriever
+        from rankify.retrievers.retriever import Retriever
 
-        retriever = HydeRetriever(n_docs=10, num_generated_docs=2, llm_model="gpt-4")
+        retriever = Retriever(method='hyde', n_docs=10, num_generated_docs=2, llm_model="gpt-4")
         documents = [Document(question=Question("What are the effects of global warming?"))]
 
         retrieved_documents = retriever.retrieve(documents)
