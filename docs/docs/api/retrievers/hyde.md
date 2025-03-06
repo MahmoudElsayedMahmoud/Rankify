@@ -1,5 +1,6 @@
 # BGE Retriever
 
+
 ::: rankify.retrievers.hyde
     handler: python
     options:
