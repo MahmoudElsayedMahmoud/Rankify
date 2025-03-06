@@ -15,6 +15,7 @@ Below is an overview of the modules, classes, and functions available in **Ranki
 - [BGE Retriever](retrievers/bge.md)
 - [ColBERT Retriever](retrievers/colbert.md)
 - [Contriever Retriever](retrievers/contriever.md)
+- [Hyde Retriever](retrievers/hyde.md)
 
 ## Rerankers
 - [Base](rerankings/base.md)
